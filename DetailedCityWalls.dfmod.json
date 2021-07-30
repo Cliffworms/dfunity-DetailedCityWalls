@@ -1,0 +1,26 @@
+{
+    "ModTitle": "DetailedCityWalls",
+    "ModVersion": "0.1",
+    "ModAuthor": "Cliffworms",
+    "DFUnity_Version": "0.11.4",
+    "GUID": "a6e2cae7-0624-4715-8feb-ccdc39f7bd7d",
+    "Files": [
+        "Assets/Game/Mods/DetailedCityWalls/Scripts/DetailedCityWallsMod.cs",
+        "Assets/Game/Mods/DetailedCityWalls/WorldData/WALLAA10.RMB-725-building0_daggerfall.json",
+        "Assets/Game/Mods/DetailedCityWalls/WorldData/WALLAA03.RMB-0-building0_daggerfall.json",
+        "Assets/Game/Mods/DetailedCityWalls/WorldData/WALLAA01.RMB-67-building0_daggerfall.json",
+        "Assets/Game/Mods/DetailedCityWalls/WorldData/WALLAA11.RMB-8-building0_daggerfall.json",
+        "Assets/Game/Mods/DetailedCityWalls/WorldData/WALLAA08.RMB-5-building0_daggerfall.json",
+        "Assets/Game/Mods/DetailedCityWalls/WorldData/WALLAA09.RMB-6-building3_daggerfall.json",
+        "Assets/Game/Mods/DetailedCityWalls/WorldData/WALLAA02.RMB-279-building0_daggerfall.json",
+        "Assets/Game/Mods/DetailedCityWalls/WorldData/WALLAA00.RMB-675-building0_daggerfall.json",
+        "Assets/Game/Mods/DetailedCityWalls/WorldData/WALLAA00.RMB-675-building0_sentinel.json",
+        "Assets/Game/Mods/DetailedCityWalls/WorldData/WALLAA01.RMB-67-building0_sentinel.json",
+        "Assets/Game/Mods/DetailedCityWalls/WorldData/WALLAA02.RMB-279-building0_sentinel.json",
+        "Assets/Game/Mods/DetailedCityWalls/WorldData/WALLAA10.RMB-725-building0_sentinel.json",
+        "Assets/Game/Mods/DetailedCityWalls/WorldData/WALLAA03.RMB-0-building0_sentinel.json",
+        "Assets/Game/Mods/DetailedCityWalls/WorldData/WALLAA11.RMB-8-building0_sentinel.json",
+        "Assets/Game/Mods/DetailedCityWalls/WorldData/WALLAA09.RMB-6-building3_sentinel.json",
+        "Assets/Game/Mods/DetailedCityWalls/WorldData/WALLAA08.RMB-5-building0_sentinel.json"
+    ]
+}
