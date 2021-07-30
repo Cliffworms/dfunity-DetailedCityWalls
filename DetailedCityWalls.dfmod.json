@@ -21,6 +21,16 @@
         "Assets/Game/Mods/DetailedCityWalls/WorldData/WALLAA03.RMB-0-building0_sentinel.json",
         "Assets/Game/Mods/DetailedCityWalls/WorldData/WALLAA11.RMB-8-building0_sentinel.json",
         "Assets/Game/Mods/DetailedCityWalls/WorldData/WALLAA09.RMB-6-building3_sentinel.json",
-        "Assets/Game/Mods/DetailedCityWalls/WorldData/WALLAA08.RMB-5-building0_sentinel.json"
+        "Assets/Game/Mods/DetailedCityWalls/WorldData/WALLAA08.RMB-5-building0_sentinel.json",
+        "Assets/Game/Mods/DetailedCityWalls/WorldData/WALLAA10.RMB-725-building0_wayrest.json",
+        "Assets/Game/Mods/DetailedCityWalls/WorldData/WALLAA00.RMB-675-building0_wayrest.json",
+        "Assets/Game/Mods/DetailedCityWalls/WorldData/WALLAA02.RMB-279-building0_wayrest.json",
+        "Assets/Game/Mods/DetailedCityWalls/WorldData/WALLAA08.RMB-5-building0_wayrest.json",
+        "Assets/Game/Mods/DetailedCityWalls/WorldData/WALLAA03.RMB-0-building0_wayrest.json",
+        "Assets/Game/Mods/DetailedCityWalls/WorldData/WALLAA11.RMB-8-building0_wayrest.json",
+        "Assets/Game/Mods/DetailedCityWalls/WorldData/WALLAA09.RMB-6-building3_wayrest.json",
+        "Assets/Game/Mods/DetailedCityWalls/WorldData/WALLAA01.RMB-67-building0_wayrest.json",
+        "Assets/Game/Mods/DetailedCityWalls/WorldData/CUSTAA05.RMB-60-building0.json",
+        "Assets/Game/Mods/DetailedCityWalls/WorldData/CUSTAA05.RMB-60-building1.json"
     ]
 }

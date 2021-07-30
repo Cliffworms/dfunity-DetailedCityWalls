@@ -66,6 +66,19 @@ namespace DetailedCityWalls
                 WorldDataVariants.SetBuildingVariant("WALLAA10.RMB", 0, variantDaggerfall, locDaggerfall);
                 WorldDataVariants.SetBuildingVariant("WALLAA11.RMB", 0, variantDaggerfall, locDaggerfall);
             }
+            // Wayrest (601) in region 23
+            if (WorldDataVariants.GetBuildingVariant(23, 601, "WALLAA00.RMB", 0) == null)
+            {
+                int locWayrest = WorldDataReplacement.MakeLocationKey(23, 601);
+                WorldDataVariants.SetBuildingVariant("WALLAA00.RMB", 0, variantWayrest, locWayrest);
+                WorldDataVariants.SetBuildingVariant("WALLAA01.RMB", 0, variantWayrest, locWayrest);
+                WorldDataVariants.SetBuildingVariant("WALLAA02.RMB", 0, variantWayrest, locWayrest);
+                WorldDataVariants.SetBuildingVariant("WALLAA03.RMB", 0, variantWayrest, locWayrest);
+                WorldDataVariants.SetBuildingVariant("WALLAA08.RMB", 0, variantWayrest, locWayrest);
+                WorldDataVariants.SetBuildingVariant("WALLAA09.RMB", 3, variantWayrest, locWayrest);
+                WorldDataVariants.SetBuildingVariant("WALLAA10.RMB", 0, variantWayrest, locWayrest);
+                WorldDataVariants.SetBuildingVariant("WALLAA11.RMB", 0, variantWayrest, locWayrest);
+            }            
             // Sentinel (6) in region 20
             if (WorldDataVariants.GetBuildingVariant(20, 6, "WALLAA00.RMB", 0) == null)
             {
