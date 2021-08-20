@@ -313,6 +313,17 @@
                     "XRotation": 0,
                     "YRotation": 0,
                     "ZRotation": 0
+                },
+                {
+                    "ModelId": "42561",
+                    "ModelIdNum": 42561,
+                    "ObjectType": 0,
+                    "XPos": -59,
+                    "YPos": -161,
+                    "ZPos": -95,
+                    "XRotation": 0,
+                    "YRotation": 0,
+                    "ZRotation": 0
                 }
             ],
             "BlockFlatObjectRecords": [

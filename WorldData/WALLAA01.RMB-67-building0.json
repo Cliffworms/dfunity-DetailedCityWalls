@@ -490,9 +490,9 @@
                 },
                 {
                     "Position": 0,
-                    "XPos": -154,
+                    "XPos": -98,
                     "YPos": -1,
-                    "ZPos": 147,
+                    "ZPos": 106,
                     "TextureArchive": 199,
                     "TextureRecord": 18,
                     "FactionID": 0,

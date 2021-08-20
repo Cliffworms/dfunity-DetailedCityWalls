@@ -298,26 +298,6 @@
                     "TextureRecord": 3,
                     "FactionID": 0,
                     "Flags": 0
-                },
-                {
-                    "Position": 0,
-                    "XPos": 206,
-                    "YPos": -1,
-                    "ZPos": 46,
-                    "TextureArchive": 199,
-                    "TextureRecord": 18,
-                    "FactionID": 0,
-                    "Flags": 0
-                },
-                {
-                    "Position": 0,
-                    "XPos": -456,
-                    "YPos": -1,
-                    "ZPos": 6,
-                    "TextureArchive": 199,
-                    "TextureRecord": 11,
-                    "FactionID": 0,
-                    "Flags": 0
                 }
             ],
             "BlockSection3Records": [],

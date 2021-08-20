@@ -56,7 +56,7 @@
                     "XPos": 454,
                     "YPos": -574,
                     "ZPos": 139,
-                    "XScale": 0.09999996,
+                    "XScale": 0.09999991,
                     "YScale": 0.09999999,
                     "ZScale": 0.09999999,
                     "XRotation": -79,
@@ -84,9 +84,9 @@
                     "XPos": 457,
                     "YPos": -518,
                     "ZPos": 159,
-                    "XScale": 0.5,
+                    "XScale": 0.4999999,
                     "YScale": 0.5,
-                    "ZScale": 0.5,
+                    "ZScale": 0.4999999,
                     "XRotation": 0,
                     "YRotation": -512,
                     "ZRotation": 0
@@ -114,7 +114,7 @@
                     "ZPos": 92,
                     "XScale": 0.2899998,
                     "YScale": 0.5,
-                    "ZScale": 0.5,
+                    "ZScale": 0.4999999,
                     "XRotation": 0,
                     "YRotation": -512,
                     "ZRotation": 0
@@ -156,7 +156,7 @@
                     "ZPos": 159,
                     "XScale": 0.14,
                     "YScale": 0.5,
-                    "ZScale": 0.5,
+                    "ZScale": 0.4999999,
                     "XRotation": 0,
                     "YRotation": -512,
                     "ZRotation": 0
@@ -252,7 +252,7 @@
                     "XPos": 450,
                     "YPos": -557,
                     "ZPos": 96,
-                    "XScale": 0.4,
+                    "XScale": 0.4000001,
                     "YScale": 0.4,
                     "ZScale": 0.4,
                     "XRotation": -1809,
@@ -280,7 +280,7 @@
                     "XPos": -589,
                     "YPos": -574,
                     "ZPos": 139,
-                    "XScale": 0.09999996,
+                    "XScale": 0.09999991,
                     "YScale": 0.09999999,
                     "ZScale": 0.09999999,
                     "XRotation": -79,
@@ -308,9 +308,9 @@
                     "XPos": -586,
                     "YPos": -518,
                     "ZPos": 159,
-                    "XScale": 0.5,
+                    "XScale": 0.4999999,
                     "YScale": 0.5,
-                    "ZScale": 0.5,
+                    "ZScale": 0.4999999,
                     "XRotation": 0,
                     "YRotation": -512,
                     "ZRotation": 0
@@ -338,7 +338,7 @@
                     "ZPos": 92,
                     "XScale": 0.2899998,
                     "YScale": 0.5,
-                    "ZScale": 0.5,
+                    "ZScale": 0.4999999,
                     "XRotation": 0,
                     "YRotation": -512,
                     "ZRotation": 0
@@ -380,7 +380,7 @@
                     "ZPos": 159,
                     "XScale": 0.14,
                     "YScale": 0.5,
-                    "ZScale": 0.5,
+                    "ZScale": 0.4999999,
                     "XRotation": 0,
                     "YRotation": -512,
                     "ZRotation": 0
@@ -476,7 +476,7 @@
                     "XPos": -593,
                     "YPos": -557,
                     "ZPos": 97,
-                    "XScale": 0.4,
+                    "XScale": 0.4000001,
                     "YScale": 0.4,
                     "ZScale": 0.4,
                     "XRotation": -1809,
@@ -594,6 +594,16 @@
                     "TextureRecord": 20,
                     "FactionID": 0,
                     "Flags": 0
+                },
+                {
+                    "Position": 0,
+                    "XPos": 360,
+                    "YPos": 16,
+                    "ZPos": -348,
+                    "TextureArchive": 183,
+                    "TextureRecord": 2,
+                    "FactionID": 0,
+                    "Flags": 1
                 }
             ],
             "BlockSection3Records": [],
@@ -810,26 +820,6 @@
                     "ZPos": 113,
                     "TextureArchive": 210,
                     "TextureRecord": 3,
-                    "FactionID": 0,
-                    "Flags": 0
-                },
-                {
-                    "Position": 0,
-                    "XPos": 206,
-                    "YPos": -1,
-                    "ZPos": 46,
-                    "TextureArchive": 199,
-                    "TextureRecord": 18,
-                    "FactionID": 0,
-                    "Flags": 0
-                },
-                {
-                    "Position": 0,
-                    "XPos": -456,
-                    "YPos": -1,
-                    "ZPos": 6,
-                    "TextureArchive": 199,
-                    "TextureRecord": 11,
                     "FactionID": 0,
                     "Flags": 0
                 }

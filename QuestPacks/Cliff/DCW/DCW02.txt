@@ -1,0 +1,446 @@
+Quest: DCW02
+DisplayName: The Watch Captain
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce>            The Dark Brotherhood cries for vengeance, %pcf.
+<ce>            The %cn watch captain had been warned not
+<ce>            to influence our brothers’ verdict. He’s hard-headed,
+<ce>            for they were executed yesterday. I want you to avenge
+<ce>            our fallen, %lev.  
+<--->
+<ce>            Have you heard of _dummy_, %lev? He’s the current
+<ce>            %cn watch captain. One of our sisters,
+<ce>            %fn2, has been declared guilty of murder and was
+<ce>            executed at dawn yesterday. Yet , we had been clear
+<ce>            with _dummy_ :  If our sister dies, so
+<ce>            will someone you love. I believe you’d be the perfect
+<ce>            candidate for the deed. Am I right?
+<--->
+<ce>            Were you at the marketplace yesterday at noon, %pcf?
+<ce>            I was. Our brother, %mn2, was hanged for a contract
+<ce>            that went wrong. We did write a letter to the watch
+<ce>            captain to… have him convince the judge not to declare
+<ce>            our brother guilty of murder, yet the watch captain ignored
+<ce>            us. Would you like to help him remember that the Dark
+<ce>            Brotherhood never forgets?
+
+RefuseQuest:  [1001]
+<ce>            The higher ups would have looked favorably on you should
+<ce>            you have accepted it. Continue this way and you may never
+<ce>            meet the Night Mother.
+
+AcceptQuest:  [1002]
+<ce>            Splendid, %pcf. Splendid indeed. First, _dummy_,
+<ce>            the watch captain, must not be killed. That would be pointless.
+<ce>            But fear not, someone will die in the end. The watch captain’s
+<ce>            wife. His lovely partner is called _wife_ and she will
+<ce>            die to her husband’s incompetence. _loc_ First, you will give
+<ce>            him this letter written by "her", asking him to meet you at the
+<ce>            %di walls in two hours. Then, you will kill his love and bring
+<ce>            the corpse to the rendez-vous along with this other letter from
+<ce>            us. I recommend you not to wait for the captain. We want this
+<ce>            done today. We’ll be watching, %lev.
+<--->
+<ce>            Marvelous. _loc_ Ask around for the captain, _dummy_, and make him believe you are
+<ce>            a courier, delivering this letter. The letter, written by who he
+<ce>            will believe to be _wife_, his wife, will ask him to meet “her”
+<ce>            at the %di walls in two hours. In the meantime, you are to kill her
+<ce>            and bring her lovely corpse to the meeting. Drop it, along with this other
+<ce>            letter, and leave. Our good captain will indeed meet his wife, though
+<ce>            maybe not the way he was expecting to. Do not wait for him. I want this done
+<ce>            today. All clear? Good.
+
+QuestFail:  [1003]
+<ce>            
+
+QuestComplete:  [1004]
+<ce>            The deed is done then, %lev. Do not believe that _dummy_ will be out
+<ce>            against us with a vengeance. Thanks to you, we’ll have him leashed like a good
+<ce>            dog. Please, take your well earned pay.
+
+
+RumorsDuringQuest:   [1005]
+There was a hanging yesterday. Assassins from the Dark Brotherhood, I hear.
+<--->
+The new watch captain in ___questgiver_ is on a vendetta against the Dark Brotherhood. We need more good men like him.
+
+RumorsPostFailure:   [1006]
+The town crier said this morning that ___questgiver_ will do whatever it takes to strike against the Dark Brotherhood.
+
+RumorsPostSuccess:   [1007]
+I heard that the watch captain’s wife in ___questgiver_ was found murdered. The captain moved against the Dark Brotherhood prior to that. Coincidence? I think not.
+<--->
+One rule for a long life is to never make enemies with the Dark Brotherhood. 
+
+QuestorPostsuccess:  [1008]
+It is good to see you, %pcf. I almost shed a tear at _wife_’s funeral. A tear of joy at seeing the good captain in grief. I heard she may had been expecting a child. 
+
+
+QuestorPostfailure:  [1009]
+I had to bribe a judge due to your incompetence. The ruler of ___questgiver_ made a public announcement against us. 
+                
+
+Message: 1010
+%qdt
+I have been tasked by the Dark Brotherhood in ___questgiver_
+to avenge one of our members who was publicly executed. I must
+deliver a letter to the watch captain, _dummy_, to organize
+a rendez-vous within two hours with his "wife" at a specific
+building in the city walls. In the meantime, I am to assassinate
+the captain's wife, _wife_, and drop her corpse, along with a message
+from the Brotherhood, to the meeting. I have been advised not to wait
+for the captain to arrive. This needs to be done today.
+<ce>
+The correct door to the walls should be _loc_ %di of where I'm currently
+standing.
+
+Message: 1020
+<ce>“A letter for me? Thank you, courier.”
+<--->
+<ce>_dummy_ takes the letter and stays silent.
+<--->
+<ce>“Can’t I get a moment’s peace, courier?
+<ce>Give me that and get out of here.”
+
+Message: 1021
+<ce>You enter _tavern_. A patron, seeing you
+<ce>carrying _wife_’s corpse lets out a horrific
+<ce>scream. The watch captain, alerted, turns your way.
+<ce>Quickly, he takes his sword from his scabbard.
+<ce>
+<ce>
+<ce>"Halt! Drop this cor- _wife_!? Murderer!
+
+Message: 1022
+<ce>Two patrons sitting at a nearby table unsheathe
+<ce>their weapons, ready to help the guard captain.
+
+Message: 1030
+<ce>"_dummy_? Is that you? You are here earlier
+<ce>than I thought. I’m back here, come!"
+
+Message: 1031
+<ce>_wife_’s back is to you. She appears to be
+<ce>busy knitting from a wool of cloth. In a flash, you strike
+<ce>her. She falls to the ground, her life quickly vanishing
+<ce>from her body.
+
+Message: 1032
+<ce>You wrap _wife_’s body in a nearby blanket and
+<ce>lift it up. Running around the streets with such a load
+<ce>may attract attention. Time is of the essence.
+
+Message: 1040
+<ce>This place seems a good one to drop _wife_’s body
+<ce>along with the second letter you are carrying.
+<ce>
+<ce>You drop the corpse and place the letter in
+<ce>_wife_'s hands.
+
+Message: 1050
+<ce>A door opens, breaking the room’s silence.
+
+Message: 1051
+<ce>You hear the watch captain moving slowly, trying to
+<ce>find where _wife_ could be hidden, followed
+<ce>by a gasp. He quickly gets to the corpse. A few
+<ce>seconds pass in silence. The captain is either
+<ce>freezed at his wife’s body, or he is reading the
+<ce>letter from the Dark Brotherhood.
+
+Message: 1052
+<ce>The captain curses silently, still shaken, takes
+<ce>_wife_’s corpse and leaves the building.
+
+Message: 1053
+<ce>The sound of your feet shuffling echo in the room.
+<ce>The captain leaves the body, unsheathes his sword
+<ce>and comes quickly towards your position.
+<ce>
+<ce>"Assassin! You will pay for this!" 
+
+Message: 1054
+<ce>You hear the watch captain moving slowly, trying to
+<ce>find where _wife_ could be hidden. It does not
+<ce>take long for him to reach your position.
+<ce>
+<ce>“Halt! Intruder!”
+
+Message: 1060
+<ce>A little bird told me the watch captain has been
+<ce>murdered. That displeases us greatly, %lev. With
+<ce>his death, we’ll need to make amends to the lord
+<ce>of the city. Leave now.
+
+Message: 1062
+<ce>A little bird told me the watch captain got in a fight
+<ce>with you. That displeases us greatly, %lev.
+<ce>We’ll need to make amends to the lord of the city.
+<ce>Leave now.
+
+Message: 1070
+     My love,
+<ce>
+I hope the courier found you quickly.
+Come find me two hours from now in one of the
+rooms where you patrol the walls. 
+<ce>
+Bring a bottle of wine, a good cheese and make
+sure to lock the door behind you. 
+<ce>
+I lust for you.
+<ce>
+<ce>_wife_
+
+Message: 1071
+_dummy_,
+<ce>
+We warned you.
+<ce>
+You killed one of ours, we killed one of yours.
+We hope you learned your lesson and wish you
+the saddest of funerals.
+<ce>
+We’ll be there.
+
+Message: 1080
+<ce>A day has passed since you were tasked with
+<ce>avenging the Dark Brotherhood fallen.
+
+Message: 1081
+<ce>It has been more than two hours since you gave
+<ce>the invitation letter to _dummy_.
+<ce>
+<ce>You have failed to avenge the Dark Brotherhood
+<ce>fallen.
+
+Message: 1082
+<ce>You hear someone scream in terror as the blankets
+<ce>covering _wife_'s body falls to the ground.
+<ce>
+<ce>"Guards! GUARDS! Murderer!"
+
+
+QBN:
+Item _reward_ gold
+Item _corpse_ dead_body
+Item _corpse2_ dead_body
+Item _letterwife_ letter used 1070
+Item _letterdb_ letter used 1071
+
+Person _questgiver_ group Questor male
+Person _dummy_ factiontype Knightly_Guard male
+Person _wife_ group Resident4 female
+
+Place _loc_ local house7
+Place _tavern_ local tavern
+Place _house_ local house
+Place _corpsedump_ remote house
+
+Foe _captain_ is Knight
+Foe _patron1_ is Warrior
+Foe _patron2_ is Mage
+
+Clock _timer_ 24:00
+Clock _meeting_ 02:00
+Clock _corpsealarm_ 00:45 01:00
+
+variable _insidewalls_
+variable _insidehouse_
+variable _insidetavern_
+variable _killedwife_
+variable _failattack_
+variable _meeting_
+variable _corpseplaced_
+
+--	Quest start-up:
+	start timer _timer_
+	log 1010 step 0
+    pc at _loc_ set _insidewalls_
+    pc at _house_ set _insidehouse_
+    pc at _tavern_ set _insidetavern_
+    place npc _wife_ at _house_
+    place npc _dummy_ at _tavern_
+    get item _letterwife_
+    get item _letterdb_
+    dialog link for location _corpsedump_
+
+_notinside_ task:
+    when not _insidewalls_ or _insidehouse_
+
+_totingletter_ task:
+    toting _letterwife_ and _dummy_ clicked
+
+_deliverletter_ task:
+    when _totingletter_ and not _killedwife_
+    say 1020
+    start timer _meeting_
+
+_dummyattacktavern_ task:
+    when _insidetavern_ and _killedwife_
+    say 1021
+    stop timer _corpsealarm_
+    setvar _failattack_
+    pick one of _dummyalone_ _dummyhelpers_
+
+_dummyalone_ task:
+    hide npc _dummy_
+    place foe _captain_ at _tavern_
+
+_dummyhelpers_ task:
+    say 1022
+    hide npc _dummy_
+    place foe _captain_ at _tavern_    
+    create foe _patron1_ every 00 minutes 1 times with 100% success 
+    create foe _patron2_ every 00 minutes 1 times with 100% success 
+
+_housegreeting_ task:
+    when _insidehouse_
+    say 1030
+
+_wifeclicked_ task:
+    clicked npc _wife_
+    say 1031
+    place item _corpse_ at _house_
+    hide npc _wife_
+    setvar _killedwife_
+
+_pickupcorpse_ task:
+    clicked item _corpse_
+    say 1032
+
+_corpsetimer_ task:
+    when _pickupcorpse_ and _notinside_
+    start timer _corpsealarm_
+
+_pcatmeeting_ task:
+    when _pickupcorpse_ and _insidewalls_
+    say 1040
+    place item _corpse2_ at _loc_
+    take _corpse_ from pc
+    take _letterdb_ from pc
+    setvar _corpseplaced_
+
+_corpsealarmstop_ task:
+    when _corpseplaced_
+    stop timer _corpsealarm_
+
+_hidecorpse2_ task:
+    clicked item _corpse2_
+    take _corpse2_ from pc
+
+_dummyatmeeting_ task:
+    when _meeting_ and _insidewalls_
+    say 1050
+
+_dummyfindscorpse_ task:
+    when _dummyatmeeting_ and _pcatmeeting_
+    say 1051
+
+_checksuccess_ task:
+    say 1052
+    place item _corpse2_ at _corpsedump_
+
+_checkfail_ task:
+    say 1053
+    create foe _captain_ every 00 minutes 1 times with 100% success
+    setvar _failattack_
+
+_dummyfindsnoone_ task:
+    when _dummyatmeeting_ and not _pcatmeeting_
+    say 1054
+    create foe _captain_ every 00 minutes 1 times with 100% success
+    setvar _failattack_
+
+_dummykilled_ task:
+    killed _captain_
+
+_fail_ task:
+    when _dummykilled_ or _failattack_
+
+_success_ task:
+    when _qgclicked_ and _corpseplaced_ and not _fail_
+    give pc _reward_
+    end quest
+
+_fail1_ task:
+    when _qgclicked_ and _failattack_ and not _dummykilled_
+    say 1062
+    end quest
+
+_fail2_ task:
+    when _qgclicked_ and _dummykilled_
+    say 1060
+    end quest
+
+_fail3_ task:
+    when _meeting_ and not _fail_ and not _corpseplaced_
+    say 1081
+    end quest
+
+-- Stealth Check
+
+_stealth00_ task:
+    when skill Stealth is at least 0
+
+_stealth10_ task:
+    when skill Stealth is at least 10
+
+_stealth20_ task:
+    when skill Stealth is at least 20
+
+_stealth30_ task:
+    when skill Stealth is at least 30
+
+_stealth00to10_ task:
+    when _stealth00_ and not _stealth10_
+
+_stealth10to20_ task:
+    when _stealth10_ and not _stealth20_
+
+_stealth20to30_ task:
+    when _stealth20_ and not _stealth30_
+
+_stealth30to100_ task:
+    when _stealth30_
+
+_stealthcheck01_ task:
+    when _dummyfindscorpse_ and _stealth30_
+    pick one of _checksuccess_
+
+_stealthcheck02_ task:
+    when _dummyfindscorpse_ and _stealth20to30_
+    pick one of _checksuccess_ _checksuccess_ _checkfail_
+
+_stealthcheck03_ task:
+    when _dummyfindscorpse_ and _stealth10to20_
+    pick one of _checksuccess_ _checkfail_ _checkfail_
+
+_stealthcheck04_ task:
+    when _dummyfindscorpse_ and _stealth00to10_
+    pick one of _checkfail_
+
+--- Clicked tasks
+
+_done_ task:
+    when _corpseplaced_ or _failattack_ or _dummykilled_
+
+_qgclicked_ task:
+    clicked npc _questgiver_
+
+_clearqggclicked_ task:
+    when _qgclicked_ and not _done_
+    clear _qgclicked_ _clearqggclicked_
+ 
+ --- Timers
+
+_timer_ task:
+    say 1080
+    end quest
+
+_corpsealarm_ task:
+    say 1082
+    spawncityguards
+    setplayercrime Murder

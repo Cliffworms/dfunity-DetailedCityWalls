@@ -46,7 +46,7 @@
                     "YPos": -1,
                     "ZPos": -529,
                     "XRotation": 0,
-                    "YRotation": -529,
+                    "YRotation": -528,
                     "ZRotation": 0
                 },
                 {
@@ -702,6 +702,17 @@
                     "XScale": 1.3,
                     "YScale": 1.3,
                     "ZScale": 1.3,
+                    "XRotation": 0,
+                    "YRotation": 0,
+                    "ZRotation": 0
+                },
+                {
+                    "ModelId": "42560",
+                    "ModelIdNum": 42560,
+                    "ObjectType": 0,
+                    "XPos": -59,
+                    "YPos": -138,
+                    "ZPos": -95,
                     "XRotation": 0,
                     "YRotation": 0,
                     "ZRotation": 0

@@ -1,0 +1,350 @@
+Quest: DCW03
+DisplayName: Constraband
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce>            Excuse me. My master, noble _dummy_ had something stolen
+<ce>            and wants it back. Could I request your help on %g3 behalf?
+<--->
+<ce>            Say, you look like you are short in gold. Not that I judge
+<ce>            by your current appearance, but still. Should you recover
+<ce>            my master’s item from the corrupted guards of %cn,
+<ce>            you shall receive _reward_ gold. 
+
+RefuseQuest:  [1001]
+<ce>            Then make way. This is a most urgent business.
+
+AcceptQuest:  [1002]
+<ce>            Then go to _tavern_, where _dummy_ is staying.
+<ce>            Seek %g2 to get the details. I was told it was most urgent
+<ce>            to find someone today, so please be quick on your feet.
+
+QuestFail:  [1003]
+<ce>            
+
+QuestComplete:  [1004]
+<ce>            You seem to have taken your sweet time with the delivery,
+<ce>            %ra. I trust you did not encounter any trouble
+<ce>            on the way? I guess not. Take this pocket change of mine
+<ce>            and see yourself out, will you?
+
+RumorsDuringQuest:   [1005]
+The guards at the gates can be overzealous. Always asking questions and looking at your belongings.
+<--->
+Did you hear about that fella who got something stolen at the gates? Keeps saying one of the guards’ the thief. 
+
+RumorsPostSuccess:   [1007]
+I heard the guards of ___questgiver_ sometimes take items from honest travellers, saying it’s “contraband”. 
+<--->
+A noble, _dummy_’s %g3 name, stopped making a scene about ___questgiver_’s guards who stole something of %g3. I guess %g got it back.
+
+QuestorPostsuccess:  [1008]
+What is it? My master is not in need of a courier at the moment.                
+
+QuestorPostfailure:  [1009]
+You’re the one I sent to my master, _dummy_, aren’t you? With the recent events, I don’t work for %g2 anymore. I hear %g's still in trouble with the law and I want none of it.          
+
+Message: 1010
+%qdt
+A servant sent me to _tavern_ here in
+__tavern_ to meet with _dummy_,
+the servant’s master. As it is an urgent
+business, I need to meet %g2 today.
+
+Message: 1011
+%qdt
+_dummy_ had %g3 package taken by the
+guards when %g crossed the __loc_ city gates. I
+have accepted to go to the wall building
+where %g saw the guard drop the package and
+retrieve it. _dummy_ needs it in =timer_ days.
+<ce>
+According to %g3 directions, the correct door
+to the _loc_ city walls should be %di
+of where I am currently standing.
+
+Message: 1020
+<ce>Ah, you must have been sent by my servant, _questgiver_.
+<ce>Good, good. I saw the guard enter a door at the _loc_
+<ce>walls %di of here. I would suggest you write that up in
+<ce>that book you’re carrying. I want my item to be back in
+<ce>my hands by =timer_ days or your payment is forfeit. If
+<ce>you’re arrested for trespassing, do not mention my name
+<ce>if you value your reputation. I’m sure this is agreeable?
+
+Message: 1021
+<ce>Ta-ta.
+
+Message: 1022
+<ce>This piss ant town is truly the least welcoming I have
+<ce>been in. Scram, %ra.
+
+Message: 1030
+<ce>This package appears to be _dummy_’s. Attached
+<ce>to it is a note that reads : 
+<ce>
+<ce>“%nam, got that from a foolish =dummy_ yesterday.
+<ce>Consider my debt paid.”
+<ce>
+<ce>
+<ce>Do you take a look at its contents?
+<--->
+<ce>This package appears to be _dummy_’s. Attached
+<ce>to it is a note that reads : 
+<ce>
+<ce>“Captain, as per your orders I have confiscated this item.
+<ce>Contraband is what it looks like.”
+<ce>
+<ce>
+<ce>Do you take a look at its contents?
+
+Message: 1032
+<ce>You find some _drug_, a well-known drug.
+<ce>You could keep it for yourself if you wanted to.
+
+Message: 1033
+<ce>You find a _magicitem_ glowing with magical energy.
+<ce>You could keep it for yourself if you wanted to.
+
+Message: 1034
+<ce>You find a _jewel_, its glow shining brightly to
+<ce>a nearby torch. You could keep it for yourself
+<ce>if you wanted to.
+
+Message: 1035
+<ce>You pack the item in your belongings.
+
+Message: 1036
+<ce>You put back the item in _dummy_’s sack.
+
+Message: 1040
+<ce>"Halt, %ra! I saw you going in there. My guess is
+<ce>that =dummy_ hired you to get back %g3
+<ce>package. Give it back and I will forget your trespassing.
+
+Message: 1041
+<ce>I’m glad we understand each other. I will look the other
+<ce>way this time. Now, take me to your employer so %g can
+<ce>be accused of conspiring against the city watch, will you?
+
+Message: 1042
+<ce>Then I'll take it off you!
+
+Message: 1043
+<ce>Lead the way.
+
+Message: 1044
+<ce>No? That’s a shame. Don’t worry, we’ll find that fool sooner or
+<ce>later without your help.I’ve had enough of your hide for today,
+<ce>so go.
+
+Message: 1045
+<ce>The guard shouts : 
+<ce>
+<ce>"Help me! Get this thief!"
+
+Message: 1050
+<ce>“What is the meaning of this?” says _dummy_.
+<ce>
+<ce>“I’m taking you in for suspected conspiracy in hiring this
+<ce>%ra here to steal your contraband.” replies the guard.
+<ce>
+<ce>“%oth, seems like I have no choice, don’t I? You, %ra,
+<ce>will certainly hear back from me once this misunderstanding is
+<ce>over.” says _dummy_.
+<ce>
+<ce>“I’ll put in a good word to the authorities about you, %pcn.
+<ce>I’ll consider your implications on this an honest mistake. Farewell.”
+<ce>says the guard, turning to you. 
+<ce>
+<ce>_dummy_ gives you an angry stare as %g is escorted out.
+
+Message: 1060
+<ce>You were supposed to meet _dummy_ today. By now,
+<ce>%g must have hired someone else.
+
+Message: 1061
+<ce>You were supposed to find the package confiscated
+<ce>by the guards on behalf of _dummy_. By now, %g
+<ce>must have found someone else to carry the deed.
+
+Message: 1062
+<ce>The =timer_ days _dummy_ gave you are long over.
+<ce>But that doesn't matter, you think, feeling %g3
+<ce>item you took from the package.
+
+Message: 1063
+<ce>"Okay. Look, I'll go take care of this myself.
+<ce>This is a waste of time" says the guard.
+
+
+QBN:
+Item _reward_ gold
+Item _drug_ drug
+Item _magicitem_ magic_item
+Item _jewel_ gem
+Item _package_ small_sack
+
+Person _questgiver_ group Questor
+Person _dummy_ group Resident4
+Person _guard_ factiontype Knightly_Guard male
+
+Place _loc_ local house7
+Place _tavern_ local tavern
+
+Foe _guardfoe_ is Warrior
+
+Clock _timer_ 5.00:00 9.00:00
+Clock _meet_ 24:00
+Clock _guardhelp_ 00:08
+Clock _guardescort_ 06:00
+
+variable _item1_
+variable _item2_
+variable _item3_
+variable _search_
+variable _nosearch_
+variable _insideloc_
+variable _guardhelp_
+variable _timer_
+
+--	Quest start-up:
+	start timer _meet_
+	log 1010 step 0
+    place npc _dummy_ at _tavern_
+    pc at _loc_ set _insideloc_
+    pick one of _item1_ _item2_ _item3_
+
+_meetdummy_ task:
+    when _dummyclicked_ and not _clickpackage_
+    stop timer _meet_
+    prompt 1020 yes _accept_ no _refuse_
+
+_accept_ task:
+    say 1021
+    log 1011 step 1
+    place item _package_ at _loc_
+    start timer _timer_
+
+_refuse_ task:
+    say 1022
+    end quest
+
+_clickpackage_ task:
+    clicked item _package_
+    clear _dummyclicked_
+    prompt 1030 yes _search_ no _nosearch_
+
+_finddrugs_ task:
+    when _search_ and _item1_
+    prompt 1032 yes _takedrugs_ no _refuseitem_
+
+_findmagicitem_ task:
+    when _search_ and _item2_
+    prompt 1033 yes _takemagicitem_ no _refuseitem_
+
+_findgem_ task:
+    when _search_ and _item3_
+    prompt 1034 yes _takegem_ no _refuseitem_
+
+_takedrugs_ task:
+    say 1035
+    take _package_ from pc
+    get item _drug_
+
+_takemagicitem_ task:
+    say 1035
+    take _package_ from pc
+    get item _magicitem_
+
+_takegem_ task:
+    say 1035
+    take _package_ from pc
+    get item _jewel_
+
+_refuseitem_ task:
+    say 1036
+
+_guardinterrupt_ task:
+    when _clickpackage_ and not _insideloc_
+    prompt 1040 yes _surrenderitem_ no _keepitem_
+
+_surrenderitem_ task:
+    take _drug_ from pc
+    take _magicitem_ from pc
+    take _jewel_ from pc
+    take _package_ from pc
+    prompt 1041 yes _escortguard_ no _refuseescort_
+
+_keepitem_ task:
+    make _drug_ permanent
+    make _magicitem_ permanent
+    make _jewel_ permanent    
+    say 1042
+    start timer _guardhelp_
+    create foe _guardfoe_ every 00 minutes 1 times with 100% success
+
+_sendguards_ task:
+    when _guardhelp_ and not _slain_
+    say 1045
+    spawncityguards immediate
+    setplayercrime Theft
+    legal repute -5
+
+_slain_ task:
+    killed _guardfoe_
+
+_escortguard_ task:
+    say 1043
+    add _guard_ face
+    start timer _guardescort_
+
+_refuseescort_ task:
+    say 1044
+    end quest
+
+_totingpackage_ task:
+    toting _package_ and _dummy_ clicked
+    give pc _reward_
+    end quest
+
+_confrontdummy_ task:
+    when _escortguard_ and _dummyclicked_
+    hide npc _dummy_
+    say 1050
+    legal repute +5
+    end quest
+
+_dummyclicked_ task:
+    clicked npc _dummy_
+ 
+_timernoitems_ task:
+    when _timer_ and _refuse_
+    say 1061    
+    end quest
+
+_timerdrugs_ task:
+    when _timer_ and _takedrugs_
+    say 1062
+    make _drug_ permanent
+    end quest
+
+_timermagicitem_ task:
+    when _timer_ and _takemagicitem_
+    say 1062
+    make _magicitem_ permanent
+    end quest
+
+_timergem_ task:
+    when _timer_ and _takegem_
+    say 1062
+    make _jewel_ permanent
+    end quest    
+
+_meet_ task:
+    say 1060
+
+_guardescort_ task:
+    say 1063
+    end quest

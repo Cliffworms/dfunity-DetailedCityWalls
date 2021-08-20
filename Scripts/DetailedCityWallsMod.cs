@@ -18,6 +18,9 @@ namespace DetailedCityWalls
         private const string variantDaggerfall = "_daggerfall";
         private const string variantWayrest = "_wayrest";
         private const string variantSentinel = "_sentinel";
+        private const string variantDwynnen = "_dwynnen";
+        private const string variantAnticlere = "_anticlere";
+
 
         static Mod mod;
 
@@ -92,7 +95,32 @@ namespace DetailedCityWalls
                 WorldDataVariants.SetBuildingVariant("WALLAA10.RMB", 0, variantSentinel, locSentinel);
                 WorldDataVariants.SetBuildingVariant("WALLAA11.RMB", 0, variantSentinel, locSentinel);
             }
-
+            // Dwynnen (522) in region 5
+            if (WorldDataVariants.GetBuildingVariant(5, 522, "WALLAA00.RMB", 0) == null)
+            {
+                int locDwynnen = WorldDataReplacement.MakeLocationKey(5, 522);
+                WorldDataVariants.SetBuildingVariant("WALLAA00.RMB", 0, variantDwynnen, locDwynnen);
+                WorldDataVariants.SetBuildingVariant("WALLAA01.RMB", 0, variantDwynnen, locDwynnen);
+                WorldDataVariants.SetBuildingVariant("WALLAA02.RMB", 0, variantDwynnen, locDwynnen);
+                WorldDataVariants.SetBuildingVariant("WALLAA03.RMB", 0, variantDwynnen, locDwynnen);
+                WorldDataVariants.SetBuildingVariant("WALLAA08.RMB", 0, variantDwynnen, locDwynnen);
+                WorldDataVariants.SetBuildingVariant("WALLAA09.RMB", 3, variantDwynnen, locDwynnen);
+                WorldDataVariants.SetBuildingVariant("WALLAA10.RMB", 0, variantDwynnen, locDwynnen);
+                WorldDataVariants.SetBuildingVariant("WALLAA11.RMB", 0, variantDwynnen, locDwynnen);
+            }            
+            // Anticlere (600) in region 21
+            if (WorldDataVariants.GetBuildingVariant(21, 600, "WALLAA00.RMB", 0) == null)
+            {
+                int locAnticlere = WorldDataReplacement.MakeLocationKey(21, 600);
+                WorldDataVariants.SetBuildingVariant("WALLAA00.RMB", 0, variantAnticlere, locAnticlere);
+                WorldDataVariants.SetBuildingVariant("WALLAA01.RMB", 0, variantAnticlere, locAnticlere);
+                WorldDataVariants.SetBuildingVariant("WALLAA02.RMB", 0, variantAnticlere, locAnticlere);
+                WorldDataVariants.SetBuildingVariant("WALLAA03.RMB", 0, variantAnticlere, locAnticlere);
+                WorldDataVariants.SetBuildingVariant("WALLAA08.RMB", 0, variantAnticlere, locAnticlere);
+                WorldDataVariants.SetBuildingVariant("WALLAA09.RMB", 3, variantAnticlere, locAnticlere);
+                WorldDataVariants.SetBuildingVariant("WALLAA10.RMB", 0, variantAnticlere, locAnticlere);
+                WorldDataVariants.SetBuildingVariant("WALLAA11.RMB", 0, variantAnticlere, locAnticlere);
+            }     
         }
     }
 }

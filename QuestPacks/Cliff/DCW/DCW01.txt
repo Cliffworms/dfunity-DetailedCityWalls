@@ -1,0 +1,634 @@
+Quest: DCW01
+DisplayName: The Watch Captain
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce>There’s a new captain of the watch in %cn and we
+<ce>know he’s one who hates our kind. I wouldn’t be surprised
+<ce>if he ended up killed by the Dark Brotherhood. I don't
+<ce>care, really. What I’d like you to do is to go investigate
+<ce>the city walls and check up if you can’t find something
+<ce>that may help us get rid of him without violence. Are you
+<ce>up to it?
+<--->
+<ce>I’m sure you heard of _dummy_? Well that bastard
+<ce>got promoted to captain of the watch since his
+<ce>predecessor died. He made it public that he’ll be going
+<ce>against us and we can’t let that happen. I want you to
+<ce>go get inside the city walls and get something that’d
+<ce>help us change his mind. Can I trust you with this?
+<--->
+<ce>Time’s short, %lev. I got something for ya if ye
+<ce>got the time. It’s about infiltrating the city walls and
+<ce>return with something that may help us get the watch off
+<ce>our backs. Ye in?
+
+RefuseQuest:  [1001]
+<ce>If ye don’t want to infiltrate a place crawling with
+<ce>guards, I can’t blame ye. I guess I’ll send %mn2
+<ce>to do the job.
+
+AcceptQuest:  [1002]
+<ce>Right. For this job, you’ll be working with _thief_.
+<ce>Your guildmate will keep watch while you investigate the walls.
+<ce>_loc_ We know the captain hangs around the walls %di of here.
+<ce>Make sure you record that direction in that journal you carry,
+<ce>since the folks on the street won't be able to point you in the
+<ce>right direction. Get back here once you find something good,
+<ce>ye hear? We have to make it quick, so get this done by =timer_ days. 
+<--->
+<ce>Hah! _loc_ That captain of the watch will get what’s comin’ to him. I
+<ce>know he works the walls %di of here for the next =timer_ days, so
+<ce>try the doors there. Write that up in your journal as I don't expect
+<ce>the commoners to be of help._thief_ will be your spotter and
+<ce>warn you if any guard’s on the way. Get in, investigate quickly,
+<ce>and get back with whatever you find. Good luck, %lev.
+
+QuestFail:  [1003]
+<ce>            
+
+QuestComplete:  [1004]
+<ce>Here’s your pay for a job well done, both of you.
+<ce>
+<ce>“See ya, %pcf.” says _thief_.
+
+RumorsDuringQuest:   [1005]
+_dummy_’s the new captain of the __loc_’s city watch.
+<--->
+__loc_ has a new watch captain. They say he wants to rid the city of its criminals. 
+
+RumorsPostFailure:   [1006]
+They say __loc_’s outlaws are either on the run or imprisoned. The new captain of the watch saw to it personally, I heard.
+
+RumorsPostSuccess:   [1007]
+Seems like the new captain of the __loc_’s city guards is as tame as the previous one. Crime still runs rampant in that town. Some of the outlaws had a part to play I’m sure. My money’s on either the Thieves Guild or the Dark Brotherhood.
+
+QuestorPostsuccess:  [1008]
+The guards have been quiet in ___loc_ since you took care of the watch captain. Good work.                
+
+QuestorPostfailure:  [1009]
+The guards have been giving us a hard time, %pcf. Thanks to you. Make it quick.
+
+Message: 1010
+%qdt
+There’s a new captain of the watch in ___questgiver_.
+The Thieves Guild wants to ensure he does not meddle in our business.
+I am to investigate the city walls with a fellow guildmate to find
+something that may help us convince the captain. According to the
+instructions I received,_loc_ the city walls I must investigate should
+be %di of where I am standing. 
+
+Message: 1020
+<ce>“%oth, I was hoping to be the one who sneaks inside the place.
+<ce>Let’s go.”
+<ce>says _thief_.
+<--->
+<ce>“%lev %pcf, good to be working with ya. I’m right behind ye.”
+<ce>says _thief_.
+
+Message: 1030
+<ce>“This place seems empty. I’ll stay outside and keep watch.
+<ce>If I see a guard coming, I’ll knock twice and walk away.
+<ce>Make it quick, %pcf.”
+<--->
+<ce>“No living soul around here it seems. I’ll head back outside and
+<ce>look out for company. I’ll knock twice if I see a guard. Have fun.”
+
+Message: 1031
+<ce>Two knocks break the room’s silence.
+
+Message: 1032
+<ce>Two frantic knocks are heard.
+
+Message: 1033
+<ce>The door opens, letting a member of the city watch inside.
+<ce>
+<ce>“What the? Who are you?” says the guard, startled.
+<ce>
+<ce>
+[Do you attempt to bluff your way out using Etiquette?]
+
+Message: 1034
+<ce>Right, we got word we’d get a recruit. The last one died
+<ce>a few days ago. Anyway, get accustomed to the place.
+<ce>I’ll see you around.
+
+Message: 1035
+[The guards sees through your bluff]
+<ce>
+<ce>
+<ce>You’re in luck, thief. My colleagues are right behind me.
+<ce>Let’s get that scum, boys!
+
+Message: 1036
+<ce>“You got a wanted list? Hey look, we’re famous. Even the boss’
+<ce>on there. There are some names I don't recognize. Maybe people
+<ce>from the Dark Brotherhood? That seems like a good find.”
+
+Message: 1037
+<ce>You see _thief_ walking quickly towards a nearby alley.
+
+Message: 1040
+<ce>This wanted list is interesting. In fact, I don’t see a single
+<ce>Wharf Rat name there. Coincidence? I think not. We’ll have our
+<ce>forger change the names a bit. Give us two or three hours to
+<ce>get it done.
+
+Message: 1041
+<ce>There you are! _thief_ got back here and told us you
+<ce>managed to talk your way out when a guard came. Is that right?
+<ce>Nice job. This wanted list is interesting. In fact, I don’t see
+<ce>a single Wharf Rat name there. Coincidence? I think not. We’ll
+<ce>have our forger change the names a bit. Give us two or three
+<ce>hours to get it done.
+
+Message: 1042
+<ce>There you are! _thief_ got back here and told us the
+<ce>guards jumped you. I don’t care if you got something from there
+<ce>or not. They’ll know we were there for business, so you botched
+<ce>the job. You botched it because you didn’t listen to your
+<ce>guildmate. We’ll need to lay low because of you. %oth.
+<ce>See yourself out.
+
+Message: 1045
+<ce>“You think we have time for some ale at %nt
+<ce>while we wait?”
+<ce>says _thief_.
+<--->
+<ce>“Do ye have cards with ya? We could play a game or two.”
+<ce>says _thief_.
+<--->
+<ce>“We may as well loiter here until it’s done.”
+<ce>says _thief_.
+
+Message: 1046
+<ce>Here, take this forged list and put it back where you stole
+<ce>the original. Our names got replaced with well-known Wharf
+<ce>Rats operatives in the area. We kept the names we didn't
+<ce>recognize. We care only about our own. Get back to me once
+<ce>it’s done.
+
+Message: 1050
+<ce>"Same plan as before, %pcf. I knock if someone’s coming."
+
+Message: 1051
+<ce>"That wasn't too hard. Time for payday, %pcf."
+
+Message: 1060
+<ce>All’s done? Very good. That’ll get the captain off our backs
+<ce>until he gets killed by the Brotherhood and we may hear about
+<ce>some Wharf Rats being jailed. What’s not to like?
+
+Message: 1061
+<ce>There you are! _thief_ got back here and told us you
+<ce>managed to talk your way out when a guard came. Is that right?
+<ce>Nice job. That’ll get the captain off our backs until he gets
+<ce>killed by the Brotherhood and we may hear about some Wharf Rats
+<ce>being jailed. What’s not to like?
+
+Message: 1062
+<ce>There you are! _thief_ got back here and told us the
+<ce>guards jumped you. I don’t care if you dropped the document
+<ce>where it was. They’ll know we were there for business, so you
+<ce>botched the job. You botched it because you didn’t listen to
+<ce>your guildmate. We’ll need to lay low because of you. %oth.
+<ce>See yourself out.
+
+Message: 1070
+<ce>“You got a letter? Oh, seems like our captain got’s an affair.
+<ce>That seems like a good find.”
+
+Message: 1080
+<ce>Let me see that love letter. 
+<ce>
+<ce>That’s perfect for some blackmailing. Here, take this letter
+<ce>and drop it where you found the other one. The captain needs to
+<ce>know he can’t play funny with us.
+
+Message: 1081
+<ce>There you are! _thief_ got back here and told us you
+<ce>managed to talk your way out when a guard came. Is that right?
+<ce>Nice job. Let me see that love letter.
+<ce>
+<ce>That’s perfect for some blackmailing. Here, take this letter
+<ce>and drop it where you found the other one. The captain needs to
+<ce>know he can’t play funny with us.
+
+Message: 1082
+<ce>There you are! _thief_ got back here and told us the
+<ce>guards jumped you. I don’t care if you got something from there
+<ce>or not. They’ll know we were there for business, so you botched
+<ce>the job. You botched it because you didn’t listen to your
+<ce>guildmate. We’ll need to lay low because of you. %oth.
+<ce>See yourself out.
+
+Message: 1090
+<ce>All’s done? Very good. If the captain has any ounce of
+<ce>wisdom, he’ll stay calm and won’t bother us.
+
+Message: 1091
+<ce>There you are! _thief_ got back here and told us you
+<ce>managed to talk your way out when a guard came. Is that right?
+<ce>Nice job. If the captain has any ounce of wisdom, he’ll stay
+<ce>calm and won’t bother us.
+
+Message: 1092
+<ce>There you are! _thief_ got back here and told us the
+<ce>guards jumped you. I don’t care if you dropped the document
+<ce>where it was. They’ll know we were there for business, so
+<ce>you botched the job. You botched it because you didn’t listen
+<ce>to your guildmate. We’ll need to lay low because of you.
+<ce>%oth. See yourself out.
+
+Message: 1100
+_dummy_, 
+<ce>
+Congratulations for your promotion to captain of
+the __loc_’s city watch. As requested,
+here are the names of the known outlaws you have
+to keep an eye on.
+<ce>
+_questgiver_
+%mn2
+%fn2
+%pcn
+%nam
+_thief_
+<ce>
+Ensure your men are informed. I will not tolerate
+crime in my city.
+<ce>Lord _guard_
+
+Message: 1101
+_dummy_, 
+<ce>
+Congratulations for your promotion to captain of
+the __loc_’s city watch. As requested,
+here are the names of the known outlaws you have
+to keep an eye on.
+<ce>
+_rat1_
+%mn2
+%fn2
+_rat2_
+%nam
+_rat3_
+<ce>
+Ensure your men are informed. I will not tolerate
+crime in my city.
+<ce>Lord _guard_
+
+Message: 1110
+My Sweet Flower,
+<ce>
+   Run away with me, far from __loc_. Leave
+your dreadful wife and her obsession with
+wealth. You are worth more to me than any
+trinket from some faraway land. The same
+cannot be said of her.
+<ce>
+   The world was bleak before I peered into
+your radiant eyes. The most magnificent
+mountains of Skyrim and flowing streams of
+the Imperial Province are nothing compared
+to your smile.
+<ce>
+   Let us leave this place. I am and will
+always be your buzzing bee of love.
+<ce>
+<ce>--_lover_
+
+Message: 1111
+   Captain _dummy_,
+<ce>
+We know of _lover_. 
+You step on our business and your lovely
+%fn2 learns your secret.
+<ce>
+Play nice and we’ll get along just fine.
+
+Message: 1200
+<ce>This letter may be of interest to the guildmaster.
+
+Message: 1201
+<ce>You gently place the letter where you first found it.
+
+Message: 1202
+<ce>=timer_ days have passed since you were tasked
+<ce>by the Thieves Guild to find a way to blackmail
+<ce>the new captain of the watch in ___questgiver_.
+
+QBN:
+Item _reward_ gold
+Item _letter1_ letter used 1100
+Item _letter2_ letter used 1110
+Item _letter1fake_ letter used 1101
+Item _letter2fake_ letter used 1111
+
+Person _questgiver_ group Questor male
+Person _dummy_ group Noble male
+Person _thief_ faction The_Thieves_Guild
+Person _rat1_ group Resident1
+Person _rat2_ group Resident1
+Person _rat3_ group Resident1
+Person _lover_ group Resident1 female
+Person _guard_ factiontype Knightly_Guard male
+
+Place _loc_ local house7
+
+Clock _timer_ 2.00:00 4.00:00
+Clock _warning1_ 00:05 00:10
+Clock _warning2_ 00:01 00:03
+Clock _warning3_ 00:01
+Clock _forgery_ 02:00 04:00
+
+variable _inside_
+variable _insidemsgshownsc1_
+variable _insidemsgshownsc2_
+variable _noguard_
+variable _skillcheck_
+variable _guardfail_
+variable _forgery_
+variable _fakelettergiven_
+variable _complete_
+
+--	Quest start-up:
+	start timer _timer_
+	log 1010 step 0
+    say 1020
+    add _thief_ face
+    pc at _loc_ set _inside_
+    have _letter1_ set _picklettersc1_
+    have _letter2_ set _picklettersc2_
+    pick one of _sc2_ _sc2_
+--    pick one of _sc1_ _sc2_
+
+
+_sc1_ task:
+    place item _letter1_ at _loc_
+
+_sc2_ task:
+    place item _letter2_ at _loc_
+
+_picklettersc1_ task:
+    say 1200
+
+_picklettersc2_ task:
+    say 1200
+
+_exitlettersc1a_ task:
+    when _picklettersc1_ and not _inside_ and not _warning2_
+    say 1036
+    add _thief_ face
+    stop timer _warning1_
+    stop timer _warning2_
+
+_exitlettersc1b_ task:
+    when _picklettersc2_ and not _inside_ and _warning2_
+    say 1037
+
+_exitlettersc2a_ task:
+    when _picklettersc2_ and not _inside_ and not _warning2_
+    say 1070
+    add _thief_ face
+    stop timer _warning1_
+    stop timer _warning2_
+
+_exitlettersc2b_ task:
+    when _picklettersc1_ and not _inside_ and _warning2_
+    say 1037
+
+_arrivedsc1_ task:
+    when _inside_ and _sc1_ and not _insidemsgshownsc1_
+    say 1030
+    drop _thief_ face
+    pick one of _guard_ _noguard_
+    setvar _insidemsgshownsc1_
+
+_arrivedsc2_ task:
+    when _inside_ and _sc2_ and not _insidemsgshownsc2_
+    say 1030
+    drop _thief_ face
+    pick one of _guard_ _noguard_
+    setvar _insidemsgshownsc2_
+
+_letterquestgiversc1a_ task:
+    when _qgclicked_ and _picklettersc1_ and not _checksuccess_ and not _guardfail_
+    say 1040
+    take _letter1_ from pc
+    start timer _forgery_
+    say 1045
+
+_letterquestgiversc1b_ task:
+    when _qgclicked_ and _picklettersc1_ and _checksuccess_ and not _dropfakelettersc1_
+    say 1041
+    start timer _forgery_
+    say 1045
+    add _thief_ face
+
+_letterquestgiversc2a_ task:
+    when _qgclicked_ and _picklettersc2_ and not _checksuccess_ and not _guardfail_
+    say 1080
+    take _letter2_ from pc
+    get item _letter2fake_
+    setvar _fakelettergiven_
+
+_letterquestgiversc2b_ task:
+    when _qgclicked_ and _picklettersc2_ and _checksuccess_ and not _dropfakelettersc2_
+    say 1081
+    add _thief_ face
+    get item _letter2fake_
+    setvar _fakelettergiven_    
+
+_lettergiven_ task:
+    when _letterquestgiversc1a_ or _letterquestgiversc1b_ or _letterquestgiversc2a_ or _letterquestgiversc2b_
+
+_letterquestgiversc1c_ task:
+    when _qgclicked_ and _picklettersc1_ and _guardfail_ and not _dropfakelettersc1_
+    say 1042
+    drop _thief_ face
+    end quest
+
+_letterquestgiversc2c_ task:
+    when _qgclicked_ and _picklettersc2_ and _guardfail_ and not _dropfakelettersc2_
+    say 1082
+    drop _thief_ face
+    end quest
+
+_forgedlettersc1_ task:
+    when _qgclicked_ and _forgery_
+    say 1046
+    get item _letter1fake_
+    setvar _fakelettergiven_
+
+_arrivedsc1a_ task:
+    when _inside_ and _fakelettergiven_ and _guard_
+    say 1050
+    drop _thief_ face
+    clear _qgclicked_
+
+_arrivedsc1b_ task:
+    when _inside_ and _fakelettergiven_ and _noguard_
+    say 1050
+    drop _thief_ face
+    clear _qgclicked_
+    clear _noguard_
+    pick one of _guard_ _noguard_
+
+_dropfakelettersc1_ task:
+    dropped _letter1fake_ at _loc_
+    say 1201
+
+_dropfakelettersc2_ task:
+    dropped _letter2fake_ at _loc_
+    say 1201
+
+_thiefreturnssc1_ task:
+    when _dropfakelettersc1_ and not _inside_ and not _warning2_
+    add _thief_ face
+    say 1051
+
+_thiefreturnssc2_ task:
+    when _dropfakelettersc2_ and not _inside_ and not _warning2_
+    add _thief_ face
+    say 1051
+
+_sc1asuccess_ task:
+    when _dropfakelettersc1_ and _qgclicked_ and not _guardfail_ and not _checksuccess_
+    say 1060
+    give pc _reward_
+    drop _thief_ face
+    setvar _complete_
+
+_sc1bsuccess_ task:
+    when _dropfakelettersc1_ and _qgclicked_ and _checksuccess_
+    say 1061
+    give pc _reward_
+    drop _thief_ face
+    setvar _complete_
+
+_sc1csuccess_ task:
+    when _dropfakelettersc1_ and _qgclicked_ and _guardfail_
+    say 1062
+    drop _thief_ face
+    setvar _complete_
+
+_sc2asuccess_ task:
+    when _dropfakelettersc2_ and _qgclicked_ and not _guardfail_ and not _checksuccess_
+    say 1090
+    give pc _reward_
+    drop _thief_ face
+    setvar _complete_
+
+_sc2bsuccess_ task:
+    when _dropfakelettersc2_ and _qgclicked_ and _checksuccess_
+    say 1091
+    give pc _reward_
+    drop _thief_ face
+    setvar _complete_
+
+_sc2csuccess_ task:
+    when _dropfakelettersc2_ and _qgclicked_ and _guardfail_
+    say 1092
+    drop _thief_ face
+    setvar _complete_
+
+_endquest_ task:
+    when _complete_
+    end quest
+
+--Guard-related tasks
+
+_guard_ task:
+    start timer _warning1_
+
+_warning1_ task:
+    say 1031
+    start timer _warning2_
+
+_warning2_ task:
+    say 1032
+    start timer _warning3_
+
+_warning3_ task:
+    prompt 1033 yes _skillcheck_ no _noskillcheck_
+
+_etiquette00_ task:
+    when skill Etiquette is at least 0
+
+_etiquette10_ task:
+    when skill Etiquette is at least 10
+
+_etiquette20_ task:
+    when skill Etiquette is at least 20
+
+_etiquette30_ task:
+    when skill Etiquette is at least 30
+
+_etiquette00to10_ task:
+    when _etiquette00_ and not _etiquette10_
+
+_etiquette10to20_ task:
+    when _etiquette10_ and not _etiquette20_
+
+_etiquette20to30_ task:
+    when _etiquette20_ and not _etiquette30_
+
+_etiquette30to100_ task:
+    when _etiquette30_
+
+_etiquettecheck01_ task:
+    when _skillcheck_ and _etiquette30_
+    pick one of _checksuccess_
+
+_etiquettecheck02_ task:
+    when _skillcheck_ and _etiquette20to30_
+    pick one of _checksuccess_ _checksuccess_ _checkfail_
+
+_etiquettecheck03_ task:
+    when _skillcheck_ and _etiquette10to20_
+    pick one of _checksuccess_ _checkfail_ _checkfail_
+
+_etiquettecheck04_ task:
+    when _skillcheck_ and _etiquette00to10_
+    pick one of _checkfail_
+
+_checksuccess_ task:
+    say 1034
+    place npc _guard_ at _loc_
+
+_checkfail_ task:
+    say 1035
+    spawncityguards immediate
+    setplayercrime Theft
+    setvar _guardfail_
+
+_noskillcheck_ task:
+    spawncityguards immediate
+    setplayercrime Theft
+    setvar _guardfail_
+
+
+_qgclicked_ task:
+    clicked npc _questgiver_
+
+_clearqggclickedsc1a_ task:
+    when _qgclicked_ and _sc1_ and not _picklettersc1_
+    clear _qgclicked_ _clearqggclickedsc1a_
+
+_clearqggclickedsc1b_ task:
+    when _qgclicked_ and _sc1_ and _picklettersc1_ and _lettergiven_
+    clear _qgclicked_ _clearqggclickedsc1b_
+
+_clearqggclickedsc2a_ task:
+    when _qgclicked_ and _sc2_ and not _picklettersc2_
+    clear _qgclicked_ _clearqggclickedsc2a_
+
+_clearqggclickedsc2b_ task:
+    when _qgclicked_ and _sc2_ and _picklettersc2_ and _lettergiven_
+    clear _qgclicked_ _clearqggclickedsc2b_   
+ 
+_timer_ task:
+    say 1202
+    end quest

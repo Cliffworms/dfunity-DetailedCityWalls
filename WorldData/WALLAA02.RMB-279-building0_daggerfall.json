@@ -269,6 +269,17 @@
                     "XRotation": 0,
                     "YRotation": 0,
                     "ZRotation": 0
+                },
+                {
+                    "ModelId": "42560",
+                    "ModelIdNum": 42560,
+                    "ObjectType": 0,
+                    "XPos": -59,
+                    "YPos": -138,
+                    "ZPos": -95,
+                    "XRotation": 0,
+                    "YRotation": 0,
+                    "ZRotation": 0
                 }
             ],
             "BlockFlatObjectRecords": [
@@ -384,9 +395,9 @@
                 },
                 {
                     "Position": 0,
-                    "XPos": -150,
+                    "XPos": 52,
                     "YPos": -3,
-                    "ZPos": 156,
+                    "ZPos": -8,
                     "TextureArchive": 199,
                     "TextureRecord": 11,
                     "FactionID": 0,
