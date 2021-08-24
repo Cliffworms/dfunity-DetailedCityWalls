@@ -1,5 +1,5 @@
 Quest: DCW03
-DisplayName: Constraband
+DisplayName: Contraband
 -- Message panels
 QRC:
 
@@ -65,7 +65,8 @@ to the _loc_ city walls should be %di
 of where I am currently standing.
 
 Message: 1020
-<ce>Ah, you must have been sent by my servant, _questgiver_.
+<ce>This is preposterous! I was robbed by a guard at the city
+<ce>gates! Ah, you must have been sent by my servant, _questgiver_.
 <ce>Good, good. I saw the guard enter a door at the _loc_
 <ce>walls %di of here. I would suggest you write that up in
 <ce>that book you’re carrying. I want my item to be back in
@@ -159,6 +160,9 @@ Message: 1050
 <ce>says the guard, turning to you. 
 <ce>
 <ce>_dummy_ gives you an angry stare as %g is escorted out.
+
+Message: 1051
+<ce>Well, %ra? %oth, where's my package? Get to it!
 
 Message: 1060
 <ce>You were supposed to meet _dummy_ today. By now,

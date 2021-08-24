@@ -11,4 +11,4 @@ schema: *name, group, membership, minReq, flag, notes
 
 DCW01, GeneralPopulace, M, 0, 0, The Watch Captain (TG) - Blackmail a zealous watch captain
 DCW02, DarkBrotherHood, M, 0, 0, The Watch Captain (DB) - Avenge a fallen assassin
-DCW03, GeneralPopulace, M, 0, 0, Contraband - Recover a confiscated item for a noble
+DCW03, commoners, N, 0, 0, Contraband - Recover a confiscated item for a noble

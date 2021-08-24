@@ -43,14 +43,15 @@ AcceptQuest:  [1002]
 <ce>            us. I recommend you not to wait for the captain. We want this
 <ce>            done today. We’ll be watching, %lev.
 <--->
-<ce>            Marvelous. _loc_ Ask around for the captain, _dummy_, and make him believe you are
-<ce>            a courier, delivering this letter. The letter, written by who he
-<ce>            will believe to be _wife_, his wife, will ask him to meet “her”
-<ce>            at the %di walls in two hours. In the meantime, you are to kill her
-<ce>            and bring her lovely corpse to the meeting. Drop it, along with this other
-<ce>            letter, and leave. Our good captain will indeed meet his wife, though
-<ce>            maybe not the way he was expecting to. Do not wait for him. I want this done
-<ce>            today. All clear? Good.
+<ce>            Marvelous. _loc_ Ask around for the captain, _dummy_,
+<ce>            and make him believe you are a courier, delivering this letter.
+<ce>            The letter, written by who he will believe to be
+<ce>            _wife_, his wife, will ask him to meet “her”
+<ce>            at the %di walls in two hours. In the meantime, you are to kill
+<ce>            her and bring her lovely corpse to the meeting. Drop it, along
+<ce>            with this other letter, and leave. Our good captain will indeed
+<ce>            meet his wife, though maybe not the way he was expecting to. Do
+<ce>            not wait for him. I want this done today. All clear? Good.
 
 QuestFail:  [1003]
 <ce>            

@@ -1,8 +1,9 @@
 {
-    "ModTitle": "DetailedCityWalls",
-    "ModVersion": "0.1",
+    "ModTitle": "Detailed City Walls",
+    "ModVersion": "1.01",
     "ModAuthor": "Cliffworms",
-    "DFUnity_Version": "0.11.4",
+    "DFUnity_Version": "0.12.1",
+    "ModDescription": "Decorates the city walls' interiors and exteriors. Also adds 3 quests taking place within the city walls.",
     "GUID": "a6e2cae7-0624-4715-8feb-ccdc39f7bd7d",
     "Files": [
         "Assets/Game/Mods/DetailedCityWalls/Scripts/DetailedCityWallsMod.cs",
