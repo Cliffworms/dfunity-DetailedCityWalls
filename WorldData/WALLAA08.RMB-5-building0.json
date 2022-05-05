@@ -34,7 +34,7 @@
                     "XPos": -275,
                     "YPos": -315,
                     "ZPos": 57,
-                    "XScale": 0.09999987,
+                    "XScale": 0.09999985,
                     "YScale": 0.1,
                     "ZScale": 0.1,
                     "XRotation": -79,
@@ -250,6 +250,20 @@
                     "XRotation": 0,
                     "YRotation": -1536,
                     "ZRotation": -73
+                },
+                {
+                    "ModelId": "20031",
+                    "ModelIdNum": 20031,
+                    "ObjectType": 4,
+                    "XPos": -8,
+                    "YPos": -253,
+                    "ZPos": -299,
+                    "XScale": 2.5,
+                    "YScale": 2.5,
+                    "ZScale": 2.5,
+                    "XRotation": 0,
+                    "YRotation": 0,
+                    "ZRotation": 0
                 }
             ],
             "BlockFlatObjectRecords": [
