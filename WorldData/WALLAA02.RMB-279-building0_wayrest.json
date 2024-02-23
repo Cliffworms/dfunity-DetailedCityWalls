@@ -52,7 +52,7 @@
             ],
             "BlockFlatObjectRecords": [
                 {
-                    "Position": 0,
+                    "Position": 4608,
                     "XPos": 135,
                     "YPos": -314,
                     "ZPos": 0,
@@ -62,7 +62,7 @@
                     "Flags": 0
                 },
                 {
-                    "Position": 0,
+                    "Position": 4609,
                     "XPos": -2,
                     "YPos": -314,
                     "ZPos": 135,
@@ -72,7 +72,7 @@
                     "Flags": 0
                 },
                 {
-                    "Position": 0,
+                    "Position": 4610,
                     "XPos": -155,
                     "YPos": -514,
                     "ZPos": 48,
@@ -82,12 +82,102 @@
                     "Flags": 0
                 },
                 {
-                    "Position": 0,
+                    "Position": 4611,
                     "XPos": 393,
                     "YPos": -5,
                     "ZPos": 212,
                     "TextureArchive": 212,
                     "TextureRecord": 0,
+                    "FactionID": 0,
+                    "Flags": 0
+                },
+                {
+                    "Position": 4612,
+                    "XPos": -182,
+                    "YPos": -584,
+                    "ZPos": 151,
+                    "TextureArchive": 1010,
+                    "TextureRecord": 42,
+                    "FactionID": 0,
+                    "Flags": 0
+                },
+                {
+                    "Position": 4613,
+                    "XPos": 146,
+                    "YPos": -584,
+                    "ZPos": 119,
+                    "TextureArchive": 1010,
+                    "TextureRecord": 43,
+                    "FactionID": 0,
+                    "Flags": 0
+                },
+                {
+                    "Position": 4614,
+                    "XPos": 150,
+                    "YPos": -583,
+                    "ZPos": -277,
+                    "TextureArchive": 1010,
+                    "TextureRecord": 44,
+                    "FactionID": 0,
+                    "Flags": 0
+                },
+                {
+                    "Position": 4615,
+                    "XPos": 147,
+                    "YPos": -583,
+                    "ZPos": 86,
+                    "TextureArchive": 1010,
+                    "TextureRecord": 46,
+                    "FactionID": 0,
+                    "Flags": 0
+                },
+                {
+                    "Position": 4616,
+                    "XPos": -223,
+                    "YPos": -584,
+                    "ZPos": 151,
+                    "TextureArchive": 1010,
+                    "TextureRecord": 47,
+                    "FactionID": 0,
+                    "Flags": 0
+                },
+                {
+                    "Position": 4617,
+                    "XPos": 145,
+                    "YPos": -584,
+                    "ZPos": 146,
+                    "TextureArchive": 1010,
+                    "TextureRecord": 48,
+                    "FactionID": 0,
+                    "Flags": 0
+                },
+                {
+                    "Position": 4618,
+                    "XPos": 128,
+                    "YPos": -584,
+                    "ZPos": 153,
+                    "TextureArchive": 1010,
+                    "TextureRecord": 50,
+                    "FactionID": 0,
+                    "Flags": 0
+                },
+                {
+                    "Position": 4619,
+                    "XPos": 130,
+                    "YPos": -583,
+                    "ZPos": -277,
+                    "TextureArchive": 1010,
+                    "TextureRecord": 44,
+                    "FactionID": 0,
+                    "Flags": 0
+                },
+                {
+                    "Position": 4620,
+                    "XPos": 107,
+                    "YPos": -583,
+                    "ZPos": -277,
+                    "TextureArchive": 1010,
+                    "TextureRecord": 44,
                     "FactionID": 0,
                     "Flags": 0
                 }

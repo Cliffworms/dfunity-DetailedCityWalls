@@ -567,7 +567,7 @@
                     "ZPos": -92,
                     "TextureArchive": 183,
                     "TextureRecord": 2,
-                    "FactionID": 0,
+                    "FactionID": 368,
                     "Flags": 0
                 },
                 {
@@ -577,7 +577,7 @@
                     "ZPos": -78,
                     "TextureArchive": 183,
                     "TextureRecord": 3,
-                    "FactionID": 0,
+                    "FactionID": 368,
                     "Flags": 0
                 }
             ],

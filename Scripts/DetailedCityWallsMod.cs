@@ -415,10 +415,10 @@ namespace DetailedCityWalls
                 WorldDataVariants.SetBuildingVariant("WALLAA10.RMB", 0, variantWrothgaria, locWrothgaria);
                 WorldDataVariants.SetBuildingVariant("WALLAA11.RMB", 0, variantWrothgaria, locWrothgaria);
             }   
-            //  Alcaire (32) in region 34
-            if (WorldDataVariants.GetBuildingVariant(34, 32, "WALLAA00.RMB", 0) == null)
+            //  Alcaire (57) in region 34
+            if (WorldDataVariants.GetBuildingVariant(34, 57, "WALLAA00.RMB", 0) == null)
             {
-                int locAlcaire = WorldDataReplacement.MakeLocationKey(34, 32);
+                int locAlcaire = WorldDataReplacement.MakeLocationKey(34, 57);
                 WorldDataVariants.SetBuildingVariant("WALLAA00.RMB", 0, variantAlcaire, locAlcaire);
                 WorldDataVariants.SetBuildingVariant("WALLAA01.RMB", 0, variantAlcaire, locAlcaire);
                 WorldDataVariants.SetBuildingVariant("WALLAA02.RMB", 0, variantAlcaire, locAlcaire);
